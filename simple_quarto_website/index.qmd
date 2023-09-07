@@ -1,0 +1,65 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Introduction
+
+This is an example document showcasing various Quarto features.
+
+## Section 1: Two Columns
+
+This text is formatted with two columns.
+
+## Section 2: Bulleted List
+
+- Item 1
+- Item 2
+- Item 3
+- 
+## Section 3: Markdown Table
+
+| Name    | Age | City     |
+| ------- | --- | -------- |
+| Alice   | 25  | New York |
+| Bob     | 30  | London   |
+| Charlie | 22  | Paris    |
+
+## Section 4: Inline Math Equation
+
+The formula \(E=mc^2\) represents mass-energy equivalence.
+## Section 5: Non-Inline Math Equation
+
+\[
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+\]
+## Section 6: Footnote and Quote
+
+Here is a footnote[^1] and a quote:
+
+> "The only way to do great work is to love what you do." - Steve Jobs
+## Section 7: Embedded Images
+
+Here are two embedded images:
+
+![Image 1](/Users/yingminhe/Desktop/5000-lab-1.2/simple_quarto_website/images/photo.png)
+
+![Image 2](/Users/yingminhe/Desktop/5000-lab-1.2/simple_quarto_website/images/my_image.jpeg)
+## Section 8: Embedded Video
+
+Here is an embedded video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+## Section 9: Mermaid Diagram
+
+Here is a Mermaid diagram:
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
