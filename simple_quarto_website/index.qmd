@@ -5,57 +5,81 @@ title: "simple_quarto_website"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-# Introduction
+# Document Title
 
-This is an example document showcasing various Quarto features.
+## Introduction
 
-## Section 1: Two Columns
+This is an example Markdown document with various elements:
 
-This text is formatted with two columns.
+### Section 1
 
-## Section 2: Bulleted List
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla est in nisi lacinia, a mattis arcu scelerisque.
+
+#### Subsection 1.1
+
+Some formatted text with two columns:
+
+Column 1:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Column 2:
+Sed fringilla est in nisi lacinia, a mattis arcu scelerisque.
+
+### Section 2
+
+This section contains a bulleted list:
 
 - Item 1
 - Item 2
 - Item 3
-- 
-## Section 3: Markdown Table
 
-| Name    | Age | City     |
-| ------- | --- | -------- |
-| Alice   | 25  | New York |
-| Bob     | 30  | London   |
-| Charlie | 22  | Paris    |
+### Section 3
 
-## Section 4: Inline Math Equation
+Here is a Markdown table:
 
-The formula \(E=mc^2\) represents mass-energy equivalence.
-## Section 5: Non-Inline Math Equation
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
 
-\[
-\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
-\]
-## Section 6: Footnote and Quote
+### Section 4
 
-Here is a footnote[^1] and a quote:
+An inline math equation: $E=mc^2$
 
-> "The only way to do great work is to love what you do." - Steve Jobs
-## Section 7: Embedded Images
+### Section 5
 
-Here are two embedded images:
+A non-inline math equation:
 
-![Image 1](/Users/yingminhe/Desktop/5000-lab-1.2/simple_quarto_website/images/photo.png)
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$
 
-![Image 2](/Users/yingminhe/Desktop/5000-lab-1.2/simple_quarto_website/images/my_image.jpeg)
-## Section 8: Embedded Video
+### Section 6
 
-Here is an embedded video:
+A footnote[^1] in the document.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+### Section 7
 
-## Section 9: Mermaid Diagram
+A quote:
 
-Here is a Mermaid diagram:
+> This is a quote from a famous person.
+
+### Section 8
+
+Embedded images:
+
+![Image 1](/images/my_image.jpeg)
+![Image 2](/images/photo.png)
+
+### Section 9
+
+Embedded video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/shorts/5_i6sA4jZcs" frameborder="0" allowfullscreen></iframe>
+
+### Section 10
+
+A Mermaid diagram:
 
 ```mermaid
 graph TD;

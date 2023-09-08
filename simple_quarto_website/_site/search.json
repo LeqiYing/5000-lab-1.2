@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. # Document Title"
+  },
+  {
+    "objectID": "index.html#section-1-two-columns",
+    "href": "index.html#section-1-two-columns",
+    "title": "simple_quarto_website",
+    "section": "Section 1: Two Columns",
+    "text": "Section 1: Two Columns\nThis text is formatted with two columns."
+  },
+  {
+    "objectID": "index.html#section-2-bulleted-list",
+    "href": "index.html#section-2-bulleted-list",
+    "title": "simple_quarto_website",
+    "section": "Section 2: Bulleted List",
+    "text": "Section 2: Bulleted List\n\nItem 1\nItem 2\nItem 3\nSection 3: Markdown Table\n\n\n\n\nName\nAge\nCity\n\n\n\n\nAlice\n25\nNew York\n\n\nBob\n30\nLondon\n\n\nCharlie\n22\nParis"
+  },
+  {
+    "objectID": "index.html#section-4-inline-math-equation",
+    "href": "index.html#section-4-inline-math-equation",
+    "title": "simple_quarto_website",
+    "section": "Section 4: Inline Math Equation",
+    "text": "Section 4: Inline Math Equation\nThe formula (E=mc^2) represents mass-energy equivalence. ## Section 5: Non-Inline Math Equation\n[ _0e{-x^2} , dx = ] ## Section 6: Footnote and Quote\nHere is a footnote[^1] and a quote:\n\n“The only way to do great work is to love what you do.” - Steve Jobs ## Section 7: Embedded Images\n\nHere are two embedded images:\n\n\n\nImage 1\n\n\n ## Section 8: Embedded Video\nHere is an embedded video:"
+  },
+  {
+    "objectID": "index.html#section-9-mermaid-diagram",
+    "href": "index.html#section-9-mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "Section 9: Mermaid Diagram",
+    "text": "Section 9: Mermaid Diagram\nHere is a Mermaid diagram:\n```mermaid graph TD; A–&gt;B; A–&gt;C; B–&gt;D; C–&gt;D;"
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "Slide 1",
+    "section": "",
+    "text": "book{wickham2023r, title={R for Data Science}, author={Wickham, H. and {}etinkaya-Rundel, M. and Grolemund, G.}, isbn={9781492097365}, url={https://books.google.com/books?id=TiLEEAAAQBAJ}, year={2023}, publisher={O’Reilly Media} }"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Slide 1",
+    "section": "Slide 2",
+    "text": "Slide 2\n ## Slide 3\n\n\n\nImage Alt Text"
+  },
+  {
+    "objectID": "slides/slides.html#slide-4",
+    "href": "slides/slides.html#slide-4",
+    "title": "Slide 1",
+    "section": "Slide 4",
+    "text": "Slide 4\nThis slide includes a citation: [@wickham2023r]\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 2 * np.pi, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave\")\nplt.xlabel(\"X-axis\")\nplt.ylabel(\"Y-axis\")\nplt.grid(True)\n\nplt.show()"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "simple_quarto_website",
+    "section": "Introduction",
+    "text": "Introduction\nThis is an example Markdown document with various elements:\n\nSection 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla est in nisi lacinia, a mattis arcu scelerisque.\n\nSubsection 1.1\nSome formatted text with two columns:\nColumn 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nColumn 2: Sed fringilla est in nisi lacinia, a mattis arcu scelerisque.\n\n\n\nSection 2\nThis section contains a bulleted list:\n\nItem 1\nItem 2\nItem 3\n\n\n\nSection 3\nHere is a Markdown table:\n\n\n\nHeader 1\nHeader 2\n\n\n\n\nCell 1\nCell 2\n\n\nCell 3\nCell 4\n\n\n\n\n\nSection 4\nAn inline math equation: \\(E=mc^2\\)\n\n\nSection 5\nA non-inline math equation:\n\\[\nF = G \\frac{m_1 m_2}{r^2}\n\\]\n\n\nSection 6\nA footnote[^1] in the document.\n\n\nSection 7\nA quote:\n\nThis is a quote from a famous person.\n\n\n\nSection 8\nEmbedded images:\n \n\n\nSection 9\nEmbedded video:\n\n\n\n\nSection 10\nA Mermaid diagram:\n```mermaid graph TD; A–&gt;B; A–&gt;C; B–&gt;D; C–&gt;D;"
+  }
+]
